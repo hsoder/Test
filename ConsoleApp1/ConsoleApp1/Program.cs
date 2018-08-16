@@ -10,10 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("TEST!");
+            Console.WriteLine("TEST!COmmit 33");
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("HEJ!!!!");
+                Console.WriteLine("HEJ!!");
             }
         }
     }
