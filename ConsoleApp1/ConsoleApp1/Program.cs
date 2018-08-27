@@ -10,10 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("TEST!COmmit 7777");
-            for (int i = 0; i < 10; i++)
+            Console.WriteLine("TEST!COmmit 7777");//Output text in console
+            for (int i = 0; i < 10; i++)//Repeats 10 times
             {
-                Console.WriteLine("HEJ DÅ!!");
+                Console.WriteLine("HEJ DÅ!!");//Text to be shown i times
             }
         }
     }
