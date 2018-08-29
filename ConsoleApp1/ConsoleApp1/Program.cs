@@ -10,16 +10,18 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            double tal;
+            double summa;
+
             Console.Write("Mata in ett tal: ");
-            int taL = int.Parse(Console.ReadLine());
+            tal = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Summan är " + (taL + taL));
+            Console.WriteLine(tal/Math.PI);
 
-            Console.WriteLine("TEST!COmmit 7777");//Output text in console
-            for (int i = 0; i < 10; i++)//Repeats 10 times
-            {
-                Console.WriteLine("HEJ DÅ!!");//Text to be shown i times
-            }
+            summa = (tal + 4.2)/2;
+            Console.WriteLine(summa);
+            
+            Console.Read();
         }
     }
 }
